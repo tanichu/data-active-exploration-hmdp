@@ -1,4 +1,4 @@
-# data-active-exploration-hmdp
+# data-active-exploration-mhdp
 
 This repository is for providing data used in the paper about active exploration submitted to IROS 2020.
 
