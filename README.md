@@ -2,20 +2,19 @@
 
 This repository is for providing data used in the paper about active exploration submitted to IROS 2020.
 
+> Yoshino R, Takano T, Tanaka H and Taniguchi T  Active Exploration for Unsupervised Object Categorization Based on Multimodal Hierarchical Dirichlet Process, submitted to IROS2020
 
-(under construction)
+In the experiment, features extracted for each modality for each object are used.
+The dataset is same as the experiment in the paper about active perception [1].
 
-* ./modality-data/training/
-  * vdata.csv ... Visual information for each object (m^v).
-  * asdata.csv ... Auditory information obtained by shaking each object (m^as).
-  * ahdata.csv ... Auditory information obtained by hitting each object (m^ah).
-  * hdata.csv ... Haptic information for each object (m^h).
+* Dataset
+  * https://github.com/tanichu/data-active-perception-hmdp
+  * ./modality-data/training/ (17 objects) and ./modality-data/test/ (17 objetcs) were used for active exploratoin experiment.
 
-  The n-th row shows a BoF representation for the n-th object.
+* Results
+  * (under construction)
+  * Some descriptons of the files are in Japanese 
 
-* ./modality-data/test/
-  * object#{j}\_#{m}.csv
-  
-  The index #{j} represents the index of an object.
-  the index #{m} represents the index of a modality.
-  Each text file contains BoF obtained by each action.
+References
+
+> [1] Taniguchi T, Yoshino R and Takano T (2018) Multimodal Hierarchical Dirichlet Process-Based Active Perception by a Robot. Front. Neurorobot. 12:22. doi: 10.3389/fnbot.2018.00022
