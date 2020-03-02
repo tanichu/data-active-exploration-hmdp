@@ -12,7 +12,8 @@ The dataset is same as the experiment in the paper about active perception [1].
   * ./modality-data/training/ (17 objects) and ./modality-data/test/ (17 objetcs) were used for active exploratoin experiment.
 
 * Results
-  * (under construction)
+  * Experimental results are uploaded to the following URL.
+  * https://www.dropbox.com/sh/np151kuq3azcmvg/AAC3jwenUSL4tugnR-A8MZRWa?dl=0
   * Some descriptons of the files are in Japanese 
 
 References
